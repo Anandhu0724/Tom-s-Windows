@@ -1,96 +1,17 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Windows 11 • Tom Desktop</title>
-  <link rel="stylesheet" href="xp.css">
-</head>
-<body>
-<div id="desktop">
-
-  <div id="boot" class="boot">
-    <div class="boot-card glass">
-      <div class="boot-brand">
-        <span class="windows-mark">▦</span>
-        <div><b>Windows</b><small>11 • Tom Edition</small></div>
-      </div>
-      <p>Tom is preparing your desktop…</p>
-      <button id="enterFullscreen" class="primary">Start Tom's Desktop</button>
-      <small>Full screen needs one click. Everything Tom does is contained inside this website.</small>
-    </div>
-  </div>
-
-  <div class="desktop-icons">
-    <button class="desktop-icon" data-app="This PC"><span class="app-icon pc">▣</span><b>This PC</b></button>
-    <button class="desktop-icon" data-app="My Documents"><span class="app-icon folder">●</span><b>Documents</b></button>
-    <button class="desktop-icon" data-app="Microsoft Edge"><span class="app-icon edge">e</span><b>Microsoft Edge</b></button>
-    <button class="desktop-icon" data-app="Recycle Bin"><span class="app-icon bin">♲</span><b>Recycle Bin</b></button>
-    <button class="desktop-icon" data-app="Paint"><span class="app-icon paint">🎨</span><b>Paint</b></button>
-    <button class="desktop-icon" data-app="Notepad"><span class="app-icon note">▤</span><b>Notepad</b></button>
-    <button class="desktop-icon" data-app="VLC Media Player"><span class="app-icon vlc">▰</span><b>VLC Media Player</b></button>
-    <button class="desktop-icon" data-app="Calculator"><span class="app-icon calc">⌗</span><b>Calculator</b></button>
-  </div>
-
-  <div id="windows"></div>
-
-  <div id="tomLayer">
-    <div id="tomBubble" class="tom-bubble">Hmm… what are you doing? 🐾</div>
-    <img id="tom" src="tom.png" alt="Tom">
-  </div>
-
-  <div id="toastStack"></div>
-
-  <div id="startMenu" class="hidden glass">
-    <div class="start-profile">
-      <div class="avatar">🐱</div>
-      <div><b>Tom</b><small>Desktop troublemaker</small></div>
-      <button id="lockTom" title="Tom takes over">🔒</button>
-    </div>
-    <div class="start-search">⌕ <span>Search apps, settings, or ask Tom…</span></div>
-    <div class="start-section-title">Pinned</div>
-    <div class="pinned">
-      <button data-app="Microsoft Edge">🌐<span>Edge</span></button>
-      <button data-app="YouTube">▶️<span>YouTube</span></button>
-      <button data-app="Paint">🎨<span>Paint</span></button>
-      <button data-app="Notepad">📝<span>Notepad</span></button>
-      <button data-app="Calculator">🧮<span>Calculator</span></button>
-      <button data-app="VLC Media Player">🟠<span>VLC</span></button>
-      <button data-app="Solitaire">🃏<span>Solitaire</span></button>
-      <button data-app="Tom Control">🐱<span>Tom Control</span></button>
-    </div>
-    <div class="start-section-title row-between"><span>Recommended by Tom</span><small>See all</small></div>
-    <div class="recommended">
-      <button data-app="YouTube"><span>▶️</span><span><b>Cat Videos</b><small>Just now</small></span></button>
-      <button data-app="Paint"><span>🎨</span><span><b>Paint something</b><small>Tom picked this</small></span></button>
-      <button data-app="Notepad"><span>📝</span><span><b>Tom's note</b><small>2 minutes ago</small></span></button>
-    </div>
-    <div class="start-power">
-      <button data-app="Lock">🔒</button>
-      <button data-app="Turn Off Computer">⏻</button>
-    </div>
-  </div>
-
-  <div id="contextMenu" class="context-menu glass hidden">
-    <button data-action="new">＋ New</button>
-    <button data-action="paint">🎨 Open Paint</button>
-    <button data-action="tom">🐱 Ask Tom</button>
-    <hr>
-    <button data-action="refresh">⟳ Refresh</button>
-  </div>
-
-  <div id="taskbar">
-    <button id="startButton" class="task start">⊞</button>
-    <div class="task-search">⌕ <span>Search</span></div>
-    <div id="taskButtons"></div>
-    <div class="tray">
-      <button id="wifi">⌁</button><button id="sound">🔊</button>
-      <span id="clock"></span>
-      <span id="date"></span>
-    </div>
-  </div>
-
-</div>
-<script src="xp.js"></script>
-</body>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/wallpaper.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 12</title>
+    <!-- Google Fonts: Inter and Plus Jakarta Sans for futuristic Windows typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="overflow-hidden select-none bg-black text-slate-900 dark:text-slate-100 font-['Plus_Jakarta_Sans',sans-serif]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
