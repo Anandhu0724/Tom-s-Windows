@@ -14,34 +14,33 @@
 - Member 2: Ashvel Ipe - Mar Baselios Christian College Of Engineering & Technology, Peermade
 
 ### Project Description
-[2-3 lines about what your project does]
+🐱 Windows 11-style desktop simulator featuring Tom as an interactive desktop pet, with animated interruptions, app interactions, custom lock screen, mini apps, and playful UI behaviors.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The Problem we noticed that students are overly engaged in laptops, for example for this Useless Project, Students are sitting in front of laptop for 18 Hours.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We designed a Prototype Windows OS Edition, there lives a pet that will interrupt users work through mischievious doings.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML
+- CSS
+- js
+- VS Code
+- Antigravity
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- None
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+https://windowstom.netlify.app/
 
 # Run
-[commands]
+https://windowstom.netlify.app/
 
 ### Project Documentation
 For Software:
