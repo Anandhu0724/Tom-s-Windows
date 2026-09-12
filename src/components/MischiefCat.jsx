@@ -442,12 +442,14 @@ export default function MischiefCat({
     setTimeout(() => setRoast(null), 3000);
   };
 
+  const screenWidth = typeof window !== 'undefined' ? window.innerWidth : 1280
+
   return (
     <motion.div
       animate={
         catState === 'running'
           ? {
-              x: [0, -window.innerWidth + 220, 0],
+              x: [0, -(screenWidth - 220), 0],
               transition: { duration: 4.5, ease: "easeInOut" }
             }
           : { x: 0 }
