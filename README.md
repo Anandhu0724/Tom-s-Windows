@@ -14,22 +14,20 @@
 - Member 2: Ashvel Ipe - Mar Baselios Christian College Of Engineering & Technology, Peermade
 
 ### Project Description
-🐱 Windows 11-style desktop simulator featuring Tom as an interactive desktop pet, with animated interruptions, app interactions, custom lock screen, mini apps, and playful UI behaviors.
+desktop appears with a cat named Tom that annoys You sometimes , sometimes does things like flashbang which switches theme to light system wide and it wanders throughout the system trolling when user opens so many tabs at once and user can poke the cat by clicking on it... 
 
 ### The Problem (that doesn't exist)
-The Problem we noticed that students are overly engaged in laptops, for example for this Useless Project, Students are sitting in front of laptop for 18 Hours.
+The Problem we noticed that students are overly engaged in laptops, for example for this Useless Project, Students are sitting in front of laptop for more Hours with being less productive.
 
 ### The Solution (that nobody asked for)
-We designed a Prototype Windows OS Edition, there lives a pet that will interrupt users work through mischievious doings.
+We designed a Prototype for Windows operating systems for now , there lives a pet that will interrupt users work through mischievious things.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
 - HTML
 - CSS
-- js
-- VS Code
-- Antigravity
+- js(React)
 
 For Hardware:
 - None
@@ -43,21 +41,29 @@ https://windowstom.netlify.app/
 https://windowstom.netlify.app/
 
 ### Project Documentation
-For Software:
+For Software:https://drive.google.com/file/d/11qrUgwIX-1EcB-9g_iw3IpbUf3FVlANu/view?usp=sharing
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/12xuf0aro1nqyw5QCOcXlW9TaQfnK0VBe/view?usp=sharing
+Lock Screen
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1DnXNLvpQAH3Nf4ZSdvkQ1FlMZMLsZVBv/view?usp=sharing
+Cat1.png
+User Chases the running cat saying I have Root permissions , can't catch me !
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/12-lxGZUvCDkvmuYKaZKauEjYI0LtPgQf/view?usp=sharing
+Cat2.png
+Tom puts the Theme to light system wide creating a Flash bang effect depending upon the time and environment 
+
+https://drive.google.com/file/d/18_YdkhGTikt_XmLzgSdCloEppnKhWDaf/view?usp=sharing
+Cat3.png
+Tom's response when user pokes Tom by clicking on the cat
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+https://drive.google.com/file/d/1xZdQITW7oGTkTmex8W9LrYo0VBffhJcP/view?usp=sharing
+diagram.png
+user loads the system cat appears wanderes and does things randonmly that may annoys may helps all depends upon mouse movemnets and activities done inside the system 
 
 For Hardware:
 
@@ -80,16 +86,17 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/11qrUgwIX-1EcB-9g_iw3IpbUf3FVlANu/view?usp=sharing
+Tom's Cat.mp4
+the video explains about the cat doing random things and describing what it does while user uses the system 
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Anandhu Krishnan: UI Designing and Backend development
+Ashvel Ipe: Ideation, frontend and Documenting
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
